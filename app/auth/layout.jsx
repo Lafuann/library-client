@@ -1,5 +1,5 @@
-import { Providers } from "./GlobalRefux/provider";
-import "./globals.css";
+import { Providers } from "../GlobalRefux/provider";
+import "../globals.css";
 
 export const metadata = {
     title: "Library App",

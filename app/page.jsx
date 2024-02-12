@@ -1,9 +1,13 @@
-import Image from "next/image";
+"use client";
+
+import { useRouter } from "next/navigation";
+import { useEffect } from "react";
 
 export default function Home() {
-    return (
-        <h1 className="w-full h-full flex justify-center items-center text-2xl">
-            Welcome to Library APP
-        </h1>
-    );
+    const router = useRouter();
+
+    useEffect(() => {
+        router.push("/dashboard");
+    });
+    return <></>;
 }
